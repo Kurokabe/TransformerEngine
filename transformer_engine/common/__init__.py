@@ -17,7 +17,7 @@ def get_te_path():
     # result = subprocess.run(command, capture_output=True, check=True, text=True)
     # result = result.stdout.replace("\n", ":").split(":")
     # return result[result.index("Location") + 1].strip()
-    return "/workspaces/mugiwara/.venv/lib/python3.10/site-packages/transformer_engine"
+    return "/workspaces/mugiwara/.venv/lib/python3.10/site-packages"
 
 
 def _load_library():
